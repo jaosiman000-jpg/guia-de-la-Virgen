@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "365 días con María",
+  title: "Guía de La Virgen",
   description:
     "Conoce el poder de los Embudos Interactivos para captar leads y vender a través de internet.",
   robots: { index: false, follow: false },
