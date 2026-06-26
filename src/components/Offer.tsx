@@ -51,18 +51,19 @@ export default function Offer() {
     <div className="step-enter flex flex-col gap-8 pb-12">
       {/* encabezado */}
       <p className="text-center text-sm font-bold text-cyan">
-        ¡Tu Devocional con María está listo! Míralo abajo🙏
+        ¡Tu app 365 Días con María está lista! Mírala abajo 🙏
       </p>
 
       <h1 className="text-center text-xl font-bold leading-snug text-sky sm:text-2xl">
-        Transforma Tu Vida Espiritual en 365 Días con María: Un devocional para
-        conectarte con la Madre de Cristo y Fortalecer Tu Fe
+        Transforma Tu Vida Espiritual en 365 Días con María: la aplicación para
+        conectarte con la Madre de Cristo y fortalecer tu fe, cada día en tu celular
       </h1>
 
       <p className="text-center text-sm text-gray-600">
-        Guía completa con{" "}
+        Una <b className="text-gray-800">aplicación</b> con{" "}
         <b className="text-gray-800">Reflexiones, Meditaciones y Oraciones Diarias</b> para
-        crecer en la <b className="text-gray-800">Espiritualidad Mariana</b> cada día del año
+        crecer en la <b className="text-gray-800">Espiritualidad Mariana</b> cada día del año,
+        directo en tu teléfono 📱
       </p>
 
       <ProductMockup />
@@ -78,14 +79,14 @@ export default function Offer() {
       </div>
 
       <h2 className="text-center font-bold text-gray-900">
-        ¿Qué incluye tu paquete devocional?
+        ¿Qué incluye tu app devocional?
       </h2>
 
       <GreenBox>
         <Block
-          title="Devocional Mariano 365 días"
+          title="App Devocional · 365 días 📱"
           items={[
-            "¡Recibirás tu devocional en pocos minutos, con entrega 100% garantizada! ¡Y cada mes recibirás un nuevo devocional!",
+            "Acceso inmediato a la aplicación con los 365 devocionales diarios, directo en tu celular. ¡Y cada mes se agregan nuevos devocionales dentro de la app!",
           ]}
         />
         <Block
@@ -97,8 +98,8 @@ export default function Offer() {
         <Block
           title="Lectura Espiritual"
           items={[
-            "Textos bíblicos: Versículos o pasajes específicos de la Biblia.",
-            "Devocionales escritos: Libros o guías con reflexiones diarias basadas en temas bíblicos o espirituales.",
+            "Textos bíblicos: versículos o pasajes específicos de la Biblia, cada día dentro de la app.",
+            "Reflexiones diarias escritas en la aplicación, basadas en temas bíblicos y espirituales.",
           ]}
         />
         <Block
@@ -128,13 +129,34 @@ export default function Offer() {
           ]}
         />
         <Block
-          title="Escritura o Diario Espiritual"
+          title="Escritura o Diario Espiritual (dentro de la app)"
           items={[
-            "Anotar pensamientos, ideas u oraciones inspirados por la lectura o la meditación.",
-            "Registrar desafíos, bendiciones o respuestas a las oraciones.",
+            "Anota tus pensamientos, ideas u oraciones inspirados por la lectura o la meditación, directo en la aplicación.",
+            "Registra desafíos, bendiciones o respuestas a tus oraciones, y consérvalos siempre contigo.",
           ]}
         />
       </GreenBox>
+
+      {/* destaque do app */}
+      <div className="rounded-2xl border-2 border-sky/20 bg-[#eef3ff] p-5">
+        <h3 className="mb-3 text-center font-extrabold text-sky">
+          📱 Todo en una sola aplicación
+        </h3>
+        <ul className="space-y-2.5 text-sm text-gray-700">
+          {[
+            "Se instala en tu celular en segundos, como una app (Android y iPhone) — sin descargas pesadas ni tiendas.",
+            "Recordatorios diarios para no perder tu momento de oración.",
+            "Sigue tu progreso: tu racha de días, los devocionales completados y tus favoritos.",
+            "Tu diario espiritual y tus intenciones, siempre contigo.",
+            "Modo claro y oscuro, para leer cómoda a cualquier hora del día.",
+          ].map((t) => (
+            <li key={t} className="flex gap-2">
+              <span>✅</span>
+              <span>{t}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
 
       <div className="space-y-3">
         <CtaGreen />
@@ -181,7 +203,7 @@ export default function Offer() {
       </div>
 
       <p className="text-center text-sm text-gray-600">
-        Este devocional es una{" "}
+        Esta aplicación es una{" "}
         <b className="text-gray-800">invitación diaria al crecimiento espiritual</b> y un
         llamado a la oración, la reflexión y el fortalecimiento de la fe. Con María como
         inspiración,{" "}
@@ -243,7 +265,7 @@ export default function Offer() {
 
       {/* testimonios */}
       <h2 className="text-center font-bold text-gray-900">
-        ¿Nuestro Devocional es confiable?
+        ¿Nuestra app es confiable?
       </h2>
       <p className="text-center text-sm text-gray-600">
         ¡SÍÍ 100%, aquí están algunas opiniones de las personas que ya lo adquirieron! 👇
@@ -258,7 +280,7 @@ export default function Offer() {
       {/* garantía */}
       <h2 className="text-center font-bold text-gray-900">¿Tiene Garantía?</h2>
       <p className="text-center text-sm text-gray-600">
-        ¡SÍ! Estamos tan seguros de que nuestro Devocional te ayudará que garantizamos un
+        ¡SÍ! Estamos tan seguros de que nuestra app te ayudará que garantizamos un
         reembolso total dentro de los 90 días posteriores a la compra.
       </p>
       <GuaranteeSeal />

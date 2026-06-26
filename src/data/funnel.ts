@@ -90,7 +90,7 @@ export const funnel: { name: string; steps: Step[] } = {
       image: "caminhando",
       cta: "INICIAR MI CAMINO",
       footnote:
-        "📜 Responde algunas preguntas rápidas... Y recibe un Devocional hecho para ti. Con oración, dirección y fe.",
+        "📱 Responde algunas preguntas rápidas... Y recibe acceso a tu app devocional, hecha para ti. Con oración, dirección y fe.",
     },
     {
       type: "name",
@@ -181,8 +181,8 @@ export const funnel: { name: string; steps: Step[] } = {
       type: "loading",
       progress: 95,
       topText:
-        'En este Devocional los caminos se abrirán y mi deseo de <span class="hl">{prece}</span> se cumplirá en el nombre de Jesús por la intercesión de Nuestra Señora.',
-      label: "Generando tu Devocional 🙏❤️",
+        'Con esta app los caminos se abrirán y mi deseo de <span class="hl">{prece}</span> se cumplirá en el nombre de Jesús por la intercesión de Nuestra Señora.',
+      label: "Preparando tu app devocional 🙏❤️",
       cta: "CONTINUAR",
     },
     { type: "offer" },

@@ -224,7 +224,7 @@ function NameStep({
   const [value, setValue] = useState("");
   const submit = () => {
     if (!value.trim()) return;
-    fbTrack("Lead", { content_name: "Libro de Oraciones" });
+    fbTrack("Lead", { content_name: "App 365 Días con María" });
     onName(value.trim());
     onNext();
   };
