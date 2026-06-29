@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import MetaPixel from "@/components/MetaPixel";
+import UtmifyPixel from "@/components/UtmifyPixel";
 import "./globals.css";
 
 const inter = Inter({
@@ -25,6 +26,7 @@ export default function RootLayout({
     <html lang="es-MX" translate="no" className={`${inter.variable} h-full`}>
       <body className="min-h-full bg-white font-sans text-gray-950 antialiased">
         <MetaPixel />
+        <UtmifyPixel />
         {children}
       </body>
     </html>
